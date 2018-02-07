@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AnkaraCars</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+    @*Script Link *@
+<link rel="stylesheet" type="text/css" href="~/revolution/css/settings.css">	
+<!-- RS5.0 Layers and Navigation Styles -->
+<link rel="stylesheet" type="text/css" href="~/revolution/css/layers.css">
+<link rel="stylesheet" type="text/css" href="~/revolution/css/navigation.css">
+
+<!-- Bootstrap Core CSS -->
+<link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="~/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="~/css/ionicons.min.css" rel="stylesheet">
+<link href="~/css/main.css" rel="stylesheet">
+<link href="~/css/style.css" rel="stylesheet">
+<link href="~/css/responsive.css" rel="stylesheet">
+
+<!-- Online Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Martel+Sans:400,200,300,600,700,800,900|Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="~/css/normalize.css">
+<link rel="stylesheet" href="~/css/standard.css">
+<link rel="stylesheet" type="text/css" href="~/css/tipuesearch.css">
+@*Script Link *@
+@*İletişim formu Css*@
+
+
+
+</head>
+
+<body style="padding-bottom:0px">     
+    <nav class="navbar navbar-gray ">
+        <div class="container">
+            <div class="navbar-header aras">   
+                
+                <div class="logo"> <a asp-action=""><img class="img-responsive" src="~/images\logo.png" alt=""></a> </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+            
+    <div class="top-info-con">
+        <ul>
+          
+          <!-- Call Us Now -->
+          <li>
+            <div class="media-left">
+              <div class="icon"> <i class="icon-call-in"></i></div>
+            </div>
+            <div class="media-body">
+              <h6>Bizi Arayın </h6>
+              <p>+ (312 ) 268 61 09 </p>
+            </div>
+          </li>
+          
+          <!-- Email us -->
+          <li>
+            <div class="media-left">
+              <div class="icon"> <i class="icon-envelope-open"></i></div>
+            </div>
+            <div class="media-body">
+              <h6>E-Posta Atın</h6>
+              <p>ankara@cars.com</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div> 
+    
+    </nav>
+    <nav class="navbar navbar-default" style = "padding:center">
+    <div class="btn-group btn-group-justified">
+    <a asp-action="Hakkimizda" class="btn btn-primary">HAKKIMIZDA</a>
+    <a asp-action="Hizmetler" class="btn btn-primary">HİZMETLERİMİZ</a>
+    <a asp-action="Iletisim" class="btn btn-primary">İLETİŞİM</a>
+</div>
+</nav>
+    <div class>
+        @RenderBody()
+        <hr />
+    </div>
+
+<!--======= FOOTER =========-->
+	<div id="footer">
+  <footer>
+    
+      <div class="footer-info" style="padding-top:50px;">
+        <div class="container" >
+          <div class="row"> 
+            
+            <!-- About -->
+            <div class="col-md-4 col-sm-12 col-xs-12"> <img class="margin-bottom-30" src="~/images/logo-footer.png" alt="">
+              <p>Ankaranın en iyi araç muayne & bakım merkezi ile gözünüz arkada kalmasın. <br>
+              
+              <p>10 Yıldır Bu işi En iyi yapan Servisiz. </p>
+            </div>
+            
+            <!-- Service provided -->
+            <div class="col-md-4 col-sm-12 col-xs-12">
+              <h6>SERVİS HİZMETLERİMİZ</h6>
+              <ul class="links">
+                <li><a href="#.">Wheel Alignment</a></li>
+                <li><a href="#.">Brake Repair Specialists</a></li>
+                <li><a href="#.">Engine Overhaul</a></li>
+                <li><a href="#.">Complete Safety Analysis</a></li>
+                
+              </ul>
+            </div>
+            
+            <!-- İletişim barı yerine linkler -->
+            <div class="col-md-4 col-sm-6 col-xs-8">
+              <ul class="links">
+                <li><a href="#.">Suspension Repair</a></li>
+                <li><a href="#.">Car Cleaning And Washing</a></li>
+                <li><a href="#.">Fuel System Service</a></li>
+                <li><a href="#.">Engine Installation</a></li>
+                <li><a href="#.">Car Sell And Buying </a></li>
+                <li><a href="#.">Suspension Repair</a></li>
+                </ul>
+          </div>
+          
+          <!--======= Footer Info =========-->
+          <div class="foot-info-con">
+            <ul class="row">
+              
+              <!-- Call Us Now -->
+              <li class="col-md-3 col-sm-6 col-xs-6">
+                <div class="media-right">
+                  <div class="icon"> <i class="icon-call-in"></i></div>
+                </div>
+                <div class="media-body">
+                  <h6>Bizi Arayın </h6>
+                  <p>+ ( 312 ) 268 61 09 </p>
+                </div>
+              </li>
+              
+              <!-- Email us -->
+              <li class="col-md-3 col-sm-6 col-xs-6">
+                <div class="media-right">
+                  <div class="icon"> <i class="icon-envelope-open"></i></div>
+                </div>
+                <div class="media-body">
+                  <h6>E-Posta Adresimiz</h6>
+                  <p>ankara@cars.com</p>
+                </div>
+              </li>
+              
+              
+                
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <!--======= RIGHTS =========-->
+  <div class="rights">
+    <div class="container">
+      <p>Copyrights &copy; 2018 <a href="https://www.abrateknoloji.com">ABRA TECH COMPANY</a> </p>
+    </div>
+  </div>
+</div>
+
+
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @*Script JS*@
+<script src="~/js/jquery-1.12.4.min.js"></script> 
+<script src="~/js/bootstrap.min.js"></script> 
+<script src="~/js/own-menu.js"></script> 
+<script src="~/js/jquery.isotope.min.js"></script> 
+<script src="~/js/jquery.lighter.js"></script> 
+<script src="~/js/owl.carousel.min.js"></script>
+
+<!-- RS5.0 Core JS Files -->
+<script type="text/javascript" src="~/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+<script type="text/javascript" src="~/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+<script type="text/javascript" src="~/revolution/js/extensions\revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="~/revolution/js/extensions\revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="~/revolution/js/extensions\revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="~/revolution/js/extensions\revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="~/revolution/js/extensions\revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="~/revolution/js/extensions\revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="~/revolution/js/extensions\revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="~/revolution/js/extensions\revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="~/revolution/js/extensions\revolution.extension.video.min.js"></script>
+
+<!-- Begin map script--> 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf0dPCQ0C7oVF0WFKhuyz7v7oWei3vFPI "></script>
+<script src="~/js/main.js"></script>
+
+<script type="text/javascript" src="~/js/tipuesearch_set.js"></script>
+<script type="text/javascript" src="~/js/tipuesearch_content.js"></script>
+<script type="text/javascript" src="~/js/tipuesearch.min.js"></script>
+
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch();
+     
+});
+</script>
+
+
+@*Script JS*@
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

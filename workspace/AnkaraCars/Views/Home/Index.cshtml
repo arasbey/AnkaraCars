@@ -1,0 +1,252 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*ARAMA bölümü*@
+
+<div class="container" style="padding-bottom:10px">
+
+<form action="search.html">
+<div class="tipue_search_left"><img src="~/images/search.png" class="tipue_search_icon">
+</div>
+<div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="En az 3 karakter girin." required></div>
+<div style="clear: both;"></div>
+<p>
+  <marquee behavior=alternate>Hoşgeldiniz, site içi arama motorumuzu kullanarak,istediğiniz parça veya hizmete ulaşabilirsiniz.   ANKARACARS® 2018--  </marquee>
+</p>
+</form>
+
+</div>
+
+
+
+@*Slider Baslangıcı*@
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000" style="padding-top:0px">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/images/slide-1.jpg" alt="ASP.NET" class="img-responsive" />
+            <div class="carousel-caption" role="option" style="padding-bottom: 500px">
+                <p style="color:aliceblue">
+                    ANKARACARS'a Hoşgeldiniz.
+                   </p>
+                <p style="color:aliceblue">
+                    
+                    Aşağıdan bize ulaşabilir,sipariş verebilir,hizmetlerimize göz atabilirsiniz.
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/slide-2.jpg" alt="Visual Studio" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p style="color:aliceblue">
+                    Araç tamir ve bakım hizmetlerimiz 19 yıldır sizinle.
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/slide-3.jpg" alt="Package Management" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p style="color:aliceblue">
+                    Siparişlerinizi hemen verebilir,anında kargo ile hızlıca alabilirsiniz.
+                </p>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+@*Slider Son*@
+
+@*Servislerimiz Bas*@
+<!-- Content -->
+  <div id="content"> 
+    
+    <!-- Welcome -->
+    <section class="padding-top-100 padding-bottom-80">
+      <div class="container"> 
+        
+        <!-- Heading -->
+        <div class="heading text-center">
+          <h5>Servİslerİmİz</h5>
+          <hr>
+          <p>Sizin için en iyi hizmetin sunmak için 16 yıldır bu işteyiz ve en iyisiyiz. </p>
+        </div>
+        
+        <!-- SERVICES -->
+        <div class="services">
+          <ul class="row">
+            
+            <!-- Wheel Alignments -->
+            <li class="col-md-4 col-sm-6 col-xs-6">
+              <article>
+                <div class="ser-img"> <img class="img-responsive" src="images\servic-img-1.jpg" alt=""> 
+                  
+                  <!-- Head -->
+                  <div class="ser-head">
+                    <div class="icon"> <img src="images\ser-icon-1.png" alt=""> </div>
+                    <h6>Rot Balans</h6>
+                  </div>
+                </div>
+                <!-- Detail -->
+                <div class="detail-in">
+                  <p>10 Yılı aşkındır en professiyonel teker balansı yapmaktayız.</p>
+                   </div>
+              </article>
+            </li>
+            
+            <!-- Suspension Repair -->
+            <li class="col-md-4 col-sm-6 col-xs-6">
+              <article>
+                <div class="ser-img"> <img class="img-responsive" src="images\servic-img-2.jpg" alt=""> 
+                  
+                  <!-- Head -->
+                  <div class="ser-head">
+                    <div class="icon"> <img src="images\ser-icon-2.png" alt=""> </div>
+                    <h6>SÜspansiyon Tamİrİ</h6>
+                  </div>
+                </div>
+                <!-- Detail -->
+                <div class="detail-in">
+                  <p>10 Yılı aşkındır en professiyonel süsyapnsiyon tamiri yapmaktayız.</p>
+                   </div>
+              </article>
+            </li>
+            
+            <!-- Engine Overhaul -->
+            <li class="col-md-4 col-sm-6 col-xs-6">
+              <article>
+                <div class="ser-img"> <img class="img-responsive" src="images\servic-img-3.jpg" alt=""> 
+                  
+                  <!-- Head -->
+                  <div class="ser-head">
+                    <div class="icon"> <img src="images\ser-icon-3.png" alt=""> </div>
+                    <h6>Motor Bakımı</h6>
+                  </div>
+                </div>
+                <!-- Detail -->
+                <div class="detail-in">
+                  <p>10 Yılı aşkındır en professiyonel motor bakımı yapmaktayız.</p>
+                   </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </div>
+     </div>
+    </section>
+@*Ürünler Baş*@
+ <section class="products light-gray-bg padding-top-100 padding-bottom-100">
+      <div class="container"> 
+        
+        <div class="heading text-center">
+          <h5>ÜRÜNLERİMİZ</h5>
+          <hr>
+          <p>Sizin için en kaliteli ürünleri,en uygun fiyatlarla sunuyoruz </p>
+        </div>
+
+    <div class="item-slide"> 
+          <div class="item">
+            <article>
+              <div class="img-item"> <img class="img-responsive" src="images\item-img-1.jpg" alt="">
+                <div class="hover-info">
+                  <div class="position-center-center"><a href="#." class="btn margin-top-20">Sipariş ver<span><i class="icon-basket"></i></span></a>
+                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-name"> <h4><a href="#.">Ön Disk Fren</a></h4> <span>1500 TL</span> </div>
+            </article>
+          </div>
+          
+          
+          <div class="item">
+            <article>
+              <div class="img-item"> <img class="img-responsive" src="images\item-img-2.jpg" alt="">
+                <div class="hover-info">
+                  <div class="position-center-center"><a href="#." class="btn margin-top-20">Add to Cart <span><i class="icon-basket"></i></span></a>
+                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-name"> <h4><a href="#.">Arka Disk Fren</a></h4> <span>1500 TL</span> </div>
+            </article>
+          </div>
+          
+          
+          <div class="item">
+            <article>
+              <div class="img-item"> <img class="img-responsive" src="images\item-img-3.jpg" alt="">
+                <div class="hover-info">
+                  <div class="position-center-center"><a href="#." class="btn margin-top-20">Add to Cart <span><i class="icon-basket"></i></span></a>
+                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-name"> <h4><a href="#.">Car Accessories</a></h4> <span>$ 1500</span> </div>
+            </article>
+          </div>
+          
+          <
+          <div class="item">
+            <article>
+              <div class="img-item"> <img class="img-responsive" src="images\item-img-4.jpg" alt="">
+                <div class="hover-info">
+                  <div class="position-center-center"><a href="#." class="btn margin-top-20">Add to Cart <span><i class="icon-basket"></i></span></a>
+                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-name"> <h4><a href="#.">Car Accessories</a></h4> <span>$ 1500</span> </div>
+            </article>
+          </div>
+          
+          <div class="item">
+            <article>
+              <div class="img-item"> <img class="img-responsive" src="images\item-img-2.jpg" alt="">
+                <div class="hover-info">
+                  <div class="position-center-center"><a href="#." class="btn margin-top-20">Add to Cart <span><i class="icon-basket"></i></span></a>
+                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-name"> <h4><a href="#.">Car Accessories</a></h4> <span>$ 1500</span> </div>
+            </article>
+          </div>
+          
+          
+          <div class="item">
+            <article>
+              <div class="img-item"> <img class="img-responsive" src="images\item-img-3.jpg" alt="">
+                <div class="hover-info">
+                  <div class="position-center-center"><a href="#." class="btn margin-top-20">Add to Cart <span><i class="icon-basket"></i></span></a>
+                    <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i></div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-name"> <h4><a href="#.">Car Accessories</a></h4> <span>$ 1500</span> </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+

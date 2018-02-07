@@ -1,0 +1,10 @@
+C:\Users\PC\Desktop\workspace\AnkaraCars\bin\Debug\netcoreapp2.0\AnkaraCars.deps.json
+C:\Users\PC\Desktop\workspace\AnkaraCars\bin\Debug\netcoreapp2.0\AnkaraCars.runtimeconfig.json
+C:\Users\PC\Desktop\workspace\AnkaraCars\bin\Debug\netcoreapp2.0\AnkaraCars.runtimeconfig.dev.json
+C:\Users\PC\Desktop\workspace\AnkaraCars\bin\Debug\netcoreapp2.0\AnkaraCars.dll
+C:\Users\PC\Desktop\workspace\AnkaraCars\bin\Debug\netcoreapp2.0\AnkaraCars.pdb
+C:\Users\PC\Desktop\workspace\AnkaraCars\obj\Debug\netcoreapp2.0\AnkaraCars.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\workspace\AnkaraCars\obj\Debug\netcoreapp2.0\AnkaraCars.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\workspace\AnkaraCars\obj\Debug\netcoreapp2.0\AnkaraCars.AssemblyInfo.cs
+C:\Users\PC\Desktop\workspace\AnkaraCars\obj\Debug\netcoreapp2.0\AnkaraCars.dll
+C:\Users\PC\Desktop\workspace\AnkaraCars\obj\Debug\netcoreapp2.0\AnkaraCars.pdb
